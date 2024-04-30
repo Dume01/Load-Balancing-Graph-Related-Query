@@ -60,6 +60,7 @@ In this assignment, you will simulate an application for a distributed graph dat
 - Load Balancer informs servers to terminate and performs cleanup.
 
 ### Handling Concurrent Requests
+- The functionality of secondary server has been implemented using a single file, open 2 different terminals and run the program. Both the secondary servers will act as 2 different secondary serevr.
 - Multiple read operations can be performed on the same graph file simultaneously.
 - Simultaneous write operations and read-write operations on the same graph file must be performed serially using semaphores or mutexes.
 
